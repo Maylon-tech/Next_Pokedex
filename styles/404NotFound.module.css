@@ -1,0 +1,25 @@
+
+.error {
+    background-color: #eee;
+    width: 100vw;
+    height: 40vh;
+    display: grid;
+    place-items: center;
+}
+
+.error h1 {
+    font-size: 5rem;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.error h3 {
+    font-size: 2rem;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.error a {
+    font-size: 1.8rem;
+    font-weight: 600;
+}

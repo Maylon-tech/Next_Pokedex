@@ -1,0 +1,60 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    background: #222;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.navbar li {
+    padding: .6rem;
+}
+
+.navbar .active {
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.logo {
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    gap: 1rem;
+    padding: .2rem;
+}
+
+.btn button {
+    cursor: pointer;
+    border: none;
+    padding: .5rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn button:first-child {
+    background-color: orange;
+}
+.btn button:last-child {
+    background-color: darkgreen;
+    color: #fff;
+}
